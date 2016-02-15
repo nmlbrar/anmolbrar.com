@@ -1,9 +1,9 @@
 
 /* basic colors used in the site*/
 .red {
-    background-color: #EF5734;
+    background-color: #EF7824;
     height: 100vh;
-    opacity: .5;
+    
 }
 
 .yellow {
@@ -15,8 +15,33 @@
 .green {
     background-color: #83B869;
     height: 100vh;
-    opacity: .8;
+    
 }
 
 
 /*grid setup goes here */
+
+.half {
+    height: 50vh;
+    position: absolute;
+    overflow: hidden;
+}
+
+
+.half2 {
+    height: 50vh;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+}
+
+
+
+.bg-code {
+    position: absolute;
+    z-index: 5;
+}
+.bg-design {
+    position: absolute;
+    z-index: 5;
+}
